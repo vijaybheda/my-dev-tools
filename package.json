@@ -1,0 +1,28 @@
+{
+  "name": "mobile-local-pipeline",
+  "version": "1.0.0",
+  "description": "A Cross-Platform Automated Mobile Build & Release Engine for Flutter",
+  "main": "bin/index.js",
+  "bin": {
+    "mobile-local-pipeline": "./bin/index.js"
+  },
+  "files": [
+    "bin/",
+    "build-mac.sh",
+    "build-windows.ps1"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com"
+  },
+  "keywords": [
+    "flutter",
+    "build",
+    "automation",
+    "cicd",
+    "android",
+    "ios"
+  ],
+  "author": "vijayimpero-flutter",
+  "license": "MIT"
+}
